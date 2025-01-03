@@ -1,0 +1,180 @@
+{
+	"id": "d8e6936c-6fb1-ef11-88cf-0022489be390",
+	"createdAt": "2025-01-03T17:31:35.750Z",
+	"createdBy": "daniela.pascoal@triton-partners.com",
+	"objects": [
+		{
+			"fieldNo": "dd422787-38bc-40b4-88dd-63fb0c0bed9e",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "69d35cfe-4906-4b27-9356-54bb7d50c204",
+					"fieldName": "page",
+					"fieldParent": "dd422787-38bc-40b4-88dd-63fb0c0bed9e",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "e6447396-e0ab-4e47-808c-8759f8b6ba5d",
+							"fieldName": "table",
+							"fieldParent": "69d35cfe-4906-4b27-9356-54bb7d50c204",
+							"fieldType": "sap.m.Table",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Array",
+							"bindingType": "h",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "73419ca5-cc5d-4299-824a-2659d43fee57",
+					"fieldName": "Label",
+					"fieldParent": 99999,
+					"fieldType": "sap.m.Label",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "f9abdaeb-f23c-4553-f663-7f454682838b",
+					"fieldName": "Javascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "11c704a1-6669-4f89-d976-80739c94152f",
+					"fieldName": "RestAPI",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "2b6daf9e-2d9c-ef11-88cf-0022489be390",
+					"restOperation": "7dfcf2ed-63db-459d-966c-01e26fa0c720",
+					"request": [],
+					"response": [
+						{
+							"status": "200",
+							"dataId": "802cd09a-08ba-4410-9d47-bbcb1f809ed3",
+							"modelFieldNo": "1680f35e-a9ec-4757-9101-4c52e2e5daca"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/RestAPI/ajaxSuccess.js",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "1680f35e-a9ec-4757-9101-4c52e2e5daca",
+					"fieldName": "DataTable",
+					"fieldParent": 99999,
+					"fieldType": "neptune.model",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "setSizeLimit",
+							"grouping": "Model",
+							"value": "1000",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "25.01.03.1731",
+	"application": "testtabledfpnew",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "2b6daf9e-2d9c-ef11-88cf-0022489be390",
+			"name": "External API - Frends DPP API",
+			"ver": "24.12.11.1721"
+		}
+	],
+	"package": "e4d4b23f-20ab-ef11-88cf-002248a01418"
+}
