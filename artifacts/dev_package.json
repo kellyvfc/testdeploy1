@@ -7,7 +7,7 @@
 	},
 	"name": "testDeploymentPackage",
 	"description": "TO BE DELETED",
-	"ver": "24.12.03.1210",
+	"ver": "25.01.03.1518",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -15,6 +15,15 @@
 			"application": "testaa",
 			"title": "",
 			"description": "LAYOUT",
+			"package": {
+				"id": "E4D4B23F-20AB-EF11-88CF-002248A01418"
+			}
+		},
+		{
+			"id": "f9ad5879-497b-ef11-bdfd-0022489d7b49",
+			"application": "testengine",
+			"title": "",
+			"description": "",
 			"package": {
 				"id": "E4D4B23F-20AB-EF11-88CF-002248A01418"
 			}
