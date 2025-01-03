@@ -18,6 +18,15 @@
 			"package": {
 				"id": "E4D4B23F-20AB-EF11-88CF-002248A01418"
 			}
+		},
+		{
+			"id": "e6ff10f3-568d-ef11-8473-000d3a672e8f",
+			"application": "tablepersonalizatetest",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "E4D4B23F-20AB-EF11-88CF-002248A01418"
+			}
 		}
 	],
 	"api": [],
