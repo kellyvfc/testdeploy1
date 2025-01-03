@@ -8,6 +8,7 @@ sap.ui.getCore().attachInit(async function (startParams) {
         },
     };
 
+    console.log("OLA")
     await apiRestAPI(options);
     // Define the columns
     var column1 = new sap.m.Column({
