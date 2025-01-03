@@ -9,7 +9,17 @@
 	"description": "TO BE DELETED",
 	"ver": "24.12.03.1210",
 	"enableCICD": true,
-	"apps": [],
+	"apps": [
+		{
+			"id": "fdf9bb47-1bfe-ee11-aaf2-0022489f6cac",
+			"application": "testaa",
+			"title": "",
+			"description": "LAYOUT",
+			"package": {
+				"id": "E4D4B23F-20AB-EF11-88CF-002248A01418"
+			}
+		}
+	],
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],
